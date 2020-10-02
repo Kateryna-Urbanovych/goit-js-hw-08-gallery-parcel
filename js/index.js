@@ -1,4 +1,4 @@
-import galleryItems from './gallery-items.js';
+import galleryItems from 'gallery-items.js';
 import createGalleryMarkup from './gallery-markup.js';
 import onOpenModal from './open-modal.js';
 
