@@ -4,7 +4,7 @@ import onOpenModal from './open-modal.js';
 
 // Создание и рендер разметки по массиву данных и предоставленному шаблону.
 
-const refs = {
+export const refs = {
     galleryContainer: document.querySelector('.js-gallery'),
     modalContainer: document.querySelector('.js-lightbox'),
     modalImage: document.querySelector('.lightbox__image'),

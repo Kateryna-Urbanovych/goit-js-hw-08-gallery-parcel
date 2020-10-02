@@ -1,3 +1,4 @@
+import { refs } from './index.js';
 import onCloseModal from './close-modal.js';
 import onCloseModalByOverlayClick from './close-modal-overlay.js';
 import onCloseModalByEscKeyDown from './close-modal-esc.js';
