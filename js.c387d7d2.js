@@ -13,4 +13,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{"./index.js":"QvaY","./close-modal.js":"vwdI","./close-modal-overlay.js":"E7ep","./close-modal-esc.js":"V5RH"}],"QvaY":[function(require,module,exports) {
 "use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.refs=void 0;var e=l(require("./gallery-items.js")),r=l(require("./gallery-markup.js")),t=l(require("./open-modal.js"));function l(e){return e&&e.__esModule?e:{default:e}}var o={galleryContainer:document.querySelector(".js-gallery"),modalContainer:document.querySelector(".js-lightbox"),modalImage:document.querySelector(".lightbox__image"),modalBthClose:document.querySelector('button[data-action="close-lightbox"]'),modalOverlay:document.querySelector(".lightbox__overlay")};exports.refs=o;var a=(0,r.default)(e.default);o.galleryContainer.insertAdjacentHTML("beforeend",a),o.galleryContainer.addEventListener("click",t.default);
 },{"./gallery-items.js":"q5Rn","./gallery-markup.js":"GKcc","./open-modal.js":"n7vg"}]},{},["QvaY"], null)
-//# sourceMappingURL=/js.c387d7d2.js.map
+//# sourceMappingURL=/goit-js-hw-08-gallery-parcel/js.c387d7d2.js.map
