@@ -1,6 +1,3 @@
-const ghpages = require('gh-pages');
-ghpages.publish('dist', function (err) {});
-
 import galleryItems from './gallery-items.js';
 import createGalleryMarkup from './gallery-markup.js';
 import onOpenModal from './open-modal.js';
