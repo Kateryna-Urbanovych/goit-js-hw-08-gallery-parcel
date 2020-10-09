@@ -4,8 +4,10 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "dev": "parcel *.html",
-        "build": "parcel build *.html --public-url /goit-js-hw-08-gallery-parcel/"
+        "dev": "parcel src/*.html",
+        "build": "parcel build src/*.html --public-url /goit-js-hw-08-gallery-parcel/",
+        "deploy": "gh-pages -d dist",
+        "predeploy": "npm run build"
     },
     "repository": {
         "type": "git",
@@ -17,9 +19,24 @@
     "bugs": {
         "url": "https://github.com/Kateryna-Urbanovych/goit-js-hw-08-gallery-parcel/issues"
     },
-    "homepage": "https://github.com/Kateryna-Urbanovych/goit-js-hw-08-gallery-parcel#readme",
+    "homepage": "https://Kateryna-Urbanovych.github.io/goit-js-hw-08-gallery-parcel",
     "devDependencies": {
-        "parcel-bundler": "^1.12.4"
+        "parcel-bundler": "^1.12.4",
+        "parcel-plugin-custom-dist-structure": "^1.1.16",
+        "parcel-plugin-nuke-dist": "^1.0.1"
     },
-    "dependencies": {}
+    "dependencies": {
+        "gh-pages": "^3.1.0"
+    },
+    "customDistStructure": {
+        "config": {
+            ".css": "css",
+            ".js": "js",
+            "images": [
+                ".jpg",
+                ".svg",
+                ".png"
+            ]
+        }
+    }
 }

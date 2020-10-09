@@ -1,6 +1,6 @@
-import galleryItems from './gallery-items.js';
-import createGalleryMarkup from './gallery-markup.js';
-import onOpenModal from './open-modal.js';
+import galleryItems from './js/gallery-items.js';
+import createGalleryMarkup from './js/gallery-markup.js';
+import onOpenModal from './js/open-modal.js';
 
 // Создание и рендер разметки по массиву данных и предоставленному шаблону.
 
